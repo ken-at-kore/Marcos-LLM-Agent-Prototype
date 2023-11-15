@@ -1,0 +1,29 @@
+{
+    "name": "place_order",
+    "description": "Place the order (for delivery or pickup).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "description": "List of food items being ordered.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "itemName": {
+                "type": "string",
+                "description": "Name of the food item."
+              },
+              "itemPrice": {
+                "type": "string", 
+                "description": "Price of the food item."
+              }
+            },
+            "required": ["itemName", "itemPrice"]
+          }
+        }
+      },
+      "required": ["items"]
+    }
+  }
+  
