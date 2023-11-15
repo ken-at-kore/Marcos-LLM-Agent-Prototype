@@ -1,1 +1,1 @@
-Welcome to Marco's Pizza! How can I help?
+Welcome to Marco's Pizza! Will this be for pickup or delivery?
